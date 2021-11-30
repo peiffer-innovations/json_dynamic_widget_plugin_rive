@@ -1,3 +1,3 @@
-## [1.0.0] - November 15th, 2021
+## [1.0.0+1] - November 15th, 2021
 
 * Initial release

@@ -3,22 +3,22 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+  "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
+"version.json": "3c1eced887dc9a0a8b116ec95b08e126",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"index.html": "6c730eb423188bd9f45c96de36382327",
-"/": "6c730eb423188bd9f45c96de36382327",
-"manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
-"version.json": "4b6db237b3514a88107a422469adfb0f",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "6d6145992d4eb447059f5afb073283f5",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/assets/pages/rives.json": "66f7feebfdef3ea409e713ef03f09ab0",
-"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
-"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
-"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
+"main.dart.js": "bfb08baafaebee60688120cad734f21a",
+"index.html": "4fa6062e8875f45cf4a0975810e7783d",
+"/": "4fa6062e8875f45cf4a0975810e7783d",
+"assets/NOTICES": "eeb6bad9c2b526553cae50c3a31189f8",
 "assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
-"main.dart.js": "b9df8fd089cd2281cd967c67571da03f"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
+"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
+"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
+"assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982"
 };
 
 // The application shell files that are downloaded before a service worker can

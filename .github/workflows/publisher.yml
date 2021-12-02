@@ -29,9 +29,9 @@ jobs:
           git config --global user.name "action"
           git config --global user.email "noop@github.com"
           git config --global url."https://action:${{secrets.REPO_TOKEN}}@github.com/".insteadOf https://github.com/
-          rm -rf schemas/json_dynamic_widget_plugin_rive
-          mkdir schemas/json_dynamic_widget_plugin_rive
-          cp output/* schemas/json_dynamic_widget_plugin_rive
+          rm -rf schemas/schemas/json_dynamic_widget_plugin_rive
+          mkdir schemas/schemas/json_dynamic_widget_plugin_rive
+          cp output/* schemas/schemas/json_dynamic_widget_plugin_rive
           cd schemas
           git add .
           git commit --allow-empty -m "json_dynamic_widget_plugin_rive: schema update"

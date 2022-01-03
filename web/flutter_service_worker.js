@@ -12,7 +12,7 @@ const RESOURCES = {
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"assets/NOTICES": "4456d6abcef5678a344a86449087733c",
+"assets/NOTICES": "aab836370cd7bd52ad18b1fed386b32f",
 "assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
@@ -20,8 +20,8 @@ const RESOURCES = {
 "assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
 "assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"index.html": "7912d75f663f137aa27263b7d5e57cbb",
-"/": "7912d75f663f137aa27263b7d5e57cbb",
+"index.html": "c645fac91be92a73ac718b6f1e3e6747",
+"/": "c645fac91be92a73ac718b6f1e3e6747",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"
 };
 

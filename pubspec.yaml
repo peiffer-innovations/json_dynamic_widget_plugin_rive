@@ -14,15 +14,13 @@ dependencies:
   child_builder: ^2.0.0
   flutter:
     sdk: flutter
-  flutter_svg: ^0.22.0
-  json_class: ^2.0.0+2
-  json_dynamic_widget: ^3.1.1
-  json_theme: ^3.1.0
+  json_class: ^2.1.2+1
+  json_dynamic_widget: ^3.6.0
+  json_theme: ^3.2.3+1
   logging: ^1.0.2
   meta: ^1.7.0
-  rive: ^0.7.33
+  rive: ^0.8.1
   uuid: ^3.0.4
-  websafe_svg: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:

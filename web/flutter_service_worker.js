@@ -7,12 +7,12 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
 "canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
 "canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
-"main.dart.js": "469610998e63f6490d1c574944419599",
+"main.dart.js": "5f72b907177769fbe11068828783bdd5",
 "version.json": "7f8dc62c1f4d5bd242487095a468ef87",
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"assets/NOTICES": "aab836370cd7bd52ad18b1fed386b32f",
+"assets/NOTICES": "aa18d579f7c2a236d5b9246f638c2da0",
 "assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
@@ -20,8 +20,8 @@ const RESOURCES = {
 "assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
 "assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"index.html": "c645fac91be92a73ac718b6f1e3e6747",
-"/": "c645fac91be92a73ac718b6f1e3e6747",
+"index.html": "57c6b673cde0f09a19d24dc7a50c2ee9",
+"/": "57c6b673cde0f09a19d24dc7a50c2ee9",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"
 };
 

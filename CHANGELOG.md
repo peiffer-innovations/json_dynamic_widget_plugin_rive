@@ -1,4 +1,4 @@
-## [1.0.0+2] - January 3rd, 2022
+## [1.0.0+2] - January 9th, 2022
 
 * Dependency Updates
 

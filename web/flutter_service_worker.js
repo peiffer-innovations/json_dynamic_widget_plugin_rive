@@ -20,8 +20,8 @@ const RESOURCES = {
 "assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
 "assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"index.html": "57c6b673cde0f09a19d24dc7a50c2ee9",
-"/": "57c6b673cde0f09a19d24dc7a50c2ee9",
+"index.html": "64177122c39b2572a754d20c064c0e31",
+"/": "64177122c39b2572a754d20c064c0e31",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"
 };
 

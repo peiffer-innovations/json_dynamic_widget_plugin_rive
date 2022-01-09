@@ -22,6 +22,9 @@ dependencies:
   rive: ^0.8.1
   uuid: ^3.0.4
 
+false_secrets:
+  - example/web/index.html
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

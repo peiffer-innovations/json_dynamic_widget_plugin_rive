@@ -9,20 +9,20 @@ const RESOURCES = {
 "assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
-"assets/NOTICES": "78ba124d98662fd7889adf75f6ad4c21",
+"assets/NOTICES": "2df58bcc2566aa5fd85c1d2ae7efb68f",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"index.html": "bbbc29a38d2a49dbeed21acfbd1756d1",
-"/": "bbbc29a38d2a49dbeed21acfbd1756d1",
+"index.html": "db9fbe5c95d1b81b75e91ba77cd0d351",
+"/": "db9fbe5c95d1b81b75e91ba77cd0d351",
 "version.json": "7f8dc62c1f4d5bd242487095a468ef87",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"main.dart.js": "01331378085c6019f5fa659044283bf0",
+"main.dart.js": "584480d9459e47ba3fa9d1b9fce88b2a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
-"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
-"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
-"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
-"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb"
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can

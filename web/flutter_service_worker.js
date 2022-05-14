@@ -3,33 +3,33 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "8ffb24208e9ae42c786194c5e15f2247",
-"index.html": "ab6c57b56e8eda3ea0b278dd7780e2b6",
-"/": "ab6c57b56e8eda3ea0b278dd7780e2b6",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
-"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
-"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
-"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
-"assets/NOTICES": "252efd199e5d185f3d3a331791ce6417",
+  "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"main.dart.js": "bad1e4cdbc2ab596f761076fd6d16f3a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
-"version.json": "7f8dc62c1f4d5bd242487095a468ef87",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487"
+"version.json": "7f8dc62c1f4d5bd242487095a468ef87",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
+"assets/NOTICES": "0776bbe893b000f6eea5508b3967c8c5",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
+"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
+"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
+"assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"index.html": "c0d453babcf7e39d8c54e4788c99449f",
+"/": "c0d453babcf7e39d8c54e4788c99449f",
+"manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",

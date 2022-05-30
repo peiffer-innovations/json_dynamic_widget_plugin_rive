@@ -3,27 +3,27 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "bad1e4cdbc2ab596f761076fd6d16f3a",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+  "main.dart.js": "821162dcd6bf8c4a813165566ff5c05a",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"version.json": "7f8dc62c1f4d5bd242487095a468ef87",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
-"assets/NOTICES": "0776bbe893b000f6eea5508b3967c8c5",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
-"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
-"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
-"assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
-"index.html": "c0d453babcf7e39d8c54e4788c99449f",
-"/": "c0d453babcf7e39d8c54e4788c99449f",
-"manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b"
+"index.html": "fbad43ce22fc981826fa32ae30114a23",
+"/": "fbad43ce22fc981826fa32ae30114a23",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"version.json": "7f8dc62c1f4d5bd242487095a468ef87",
+"assets/AssetManifest.json": "f3b5671025611b194c544ba136520403",
+"assets/assets/pages/rives.json": "e9bbe60e50bc24fe3721e41a2377d982",
+"assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
+"assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
+"assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
+"assets/NOTICES": "80d34c68753460bdcdde03001a67943c",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1"
 };
 
 // The application shell files that are downloaded before a service worker can

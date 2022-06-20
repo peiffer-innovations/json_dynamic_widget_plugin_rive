@@ -19,7 +19,7 @@ dependencies:
   json_theme: ^4.0.0
   logging: ^1.0.1
   meta: ^1.7.0
-  rive: ^0.8.4
+  rive: ">=0.8.4 <0.10.0"
   uuid: ^3.0.6
 
 false_secrets:

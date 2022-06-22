@@ -4,11 +4,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [json_dynamic_widget_plugin_rive](#json_dynamic_widget_plugin_rive)
-  - [Table of Contents](#table-of-contents)
-  - [Live Example](#live-example)
-  - [Introduction](#introduction)
-  - [Using the Plugin](#using-the-plugin)
+- [Live Example](#live-example)
+- [Introduction](#introduction)
+- [Using the Plugin](#using-the-plugin)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -1,3 +1,5 @@
+# json_dynamic_widget_plugin_rive
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -9,14 +11,6 @@
   - [Using the Plugin](#using-the-plugin)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# json_dynamic_widget_plugin_rive
-
-## Table of Contents
-
-* [Live Example](#live-example)
-* [Introduction](#introduction)
-* [Using the Plugin](#using-the-plugin)
 
 
 ## Live Example

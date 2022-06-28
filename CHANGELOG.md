@@ -1,3 +1,8 @@
+## [3.0.1+1] - June 28, 2022
+
+* Automated dependency updates
+
+
 ## [3.0.1] - June 21st, 2022
 
 * Rive 0.9.0
@@ -36,3 +41,4 @@
 ## [1.0.0+1] - November 15th, 2021
 
 * Initial release
+

@@ -4,12 +4,12 @@ import 'package:json_theme/json_theme_schemas.dart';
 
 class JsonRivePlugin {
   static void bind(JsonWidgetRegistry registry) {
-    var schemaCache = SchemaCache();
+    final schemaCache = SchemaCache();
     schemaCache.addSchema(RiveSchema.id, RiveSchema.schema);
 
     registry.registerCustomBuilder(
       RiveBuilder.type,
-      JsonWidgetBuilderContainer(
+      const JsonWidgetBuilderContainer(
         builder: RiveBuilder.fromDynamic,
         schemaId: RiveSchema.id,
       ),

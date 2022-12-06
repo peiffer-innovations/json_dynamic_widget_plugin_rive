@@ -181,7 +181,7 @@ class _RiveMemoryWidgetState extends State<_RiveMemoryWidget> {
   void initState() {
     super.initState();
 
-    var file = RiveFile.import(
+    final file = RiveFile.import(
       ByteData.sublistView(base64.decode(widget.rive)),
     );
 
@@ -193,12 +193,12 @@ class _RiveMemoryWidgetState extends State<_RiveMemoryWidget> {
 
     if (widget.animations?.isNotEmpty == true) {
       for (var name in widget.animations!) {
-        var controller = SimpleAnimation(name);
+        final controller = SimpleAnimation(name);
         _artboard.addController(controller);
         _animations.add(controller);
       }
     } else {
-      var controller = SimpleAnimation(_artboard.animations.first.name);
+      final controller = SimpleAnimation(_artboard.animations.first.name);
       _artboard.addController(controller);
       _animations.add(controller);
     }

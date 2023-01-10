@@ -20,9 +20,9 @@ const RESOURCES = {
 "assets/assets/rives/liquid_download.riv": "759e9a34b5a0981bad2c4af369491332",
 "assets/assets/rives/off_road_car.riv": "ed576aa0dda582ecf3a7a311b80415c6",
 "assets/assets/rives/little_machine.riv": "193f95c91f3d0c38b27e25ff1b71b6ef",
-"assets/NOTICES": "6434f6a102addb9054a5323bbfa14fb2",
-"index.html": "8cce23c24aa64538d3fb29a431598efd",
-"/": "8cce23c24aa64538d3fb29a431598efd",
+"assets/NOTICES": "868455c42870dc858b81507cb52ff589",
+"index.html": "bb7a4ed5b858b8e7a2cc83ca93f020d0",
+"/": "bb7a4ed5b858b8e7a2cc83ca93f020d0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "7f8dc62c1f4d5bd242487095a468ef87"
 };

@@ -4846,7 +4846,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 child_builder
 json_dynamic_widget
-static_translations
 
 MIT License
 
@@ -7025,6 +7024,7 @@ json_conditional
 json_dynamic_widget_plugin_rive
 json_theme
 rest_client
+static_translations
 
 MIT License
 

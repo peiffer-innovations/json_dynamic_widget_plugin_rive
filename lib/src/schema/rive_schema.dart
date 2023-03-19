@@ -7,6 +7,7 @@ class RiveSchema {
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-06/schema#',
+    r'$children': 0,
     r'$id': '$id',
     'title': 'Rive',
     'type': 'object',

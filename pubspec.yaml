@@ -1,7 +1,7 @@
 name: 'json_dynamic_widget_plugin_rive'
 description: 'A plugin to the JSON Dynamic Widget to provide Rive support to the widgets'
 homepage: 'https://github.com/peiffer-innovations/json_dynamic_widget_plugin_rive'
-version: '3.0.2+23'
+version: '3.0.2+24'
 
 environment: 
   sdk: '>=2.19.0 <4.0.0'
@@ -16,11 +16,11 @@ dependencies:
   flutter: 
     sdk: 'flutter'
   json_class: '^3.0.0+2'
-  json_dynamic_widget: '^6.1.0+2'
-  json_theme: '^6.1.0'
+  json_dynamic_widget: '^6.1.0+3'
+  json_theme: '^6.2.1+1'
   logging: '^1.2.0'
   meta: '^1.8.0'
-  rive: '^0.11.8'
+  rive: '^0.11.13'
   uuid: '^3.0.7'
 
 false_secrets: 

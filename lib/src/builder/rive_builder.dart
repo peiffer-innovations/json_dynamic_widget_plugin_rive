@@ -1,21 +1,34 @@
 import 'dart:convert';
-import 'dart:typed_data';
 
-import 'package:child_builder/child_builder.dart';
-import 'package:flutter/material.dart';
-import 'package:json_class/json_class.dart';
 import 'package:json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:json_theme/json_theme.dart';
 import 'package:rive/rive.dart';
 
+part 'rive_builder.g.dart';
+
 /// Creates a [Rive] widget.
-class RiveBuilder extends JsonWidgetBuilder {
-  RiveBuilder({
+@jsonWidget
+abstract class _RiveBuilder extends JsonWidgetBuilder {
+  const _RiveBuilder({
+    super.args,
+  });
+
+  @override
+  _Rive buildCustom({
+    ChildWidgetBuilder? childBuilder,
+    required BuildContext context,
+    required JsonWidgetData data,
+    Key? key,
+  });
+}
+
+class _Rive extends StatelessWidget {
+  const _Rive({
     required this.alignment,
     required this.animations,
     required this.antialiasing,
     required this.artboard,
     required this.asset,
+    @JsonBuildArg() this.childBuilder,
     required this.fit,
     required this.package,
     required this.placeholder,
@@ -25,17 +38,14 @@ class RiveBuilder extends JsonWidgetBuilder {
   })  : assert((asset == null && url == null) ||
             (asset == null && rive == null) ||
             (rive == null && url == null)),
-        assert(asset != null || rive != null || url != null),
-        super(numSupportedChildren: kNumSupportedChildren);
-
-  static const kNumSupportedChildren = 0;
-  static const type = 'rive';
+        assert(asset != null || rive != null || url != null);
 
   final Alignment? alignment;
   final List<String>? animations;
   final bool? antialiasing;
   final String? artboard;
   final String? asset;
+  final ChildWidgetBuilder? childBuilder;
   final BoxFit? fit;
   final String? package;
   final JsonWidgetData? placeholder;
@@ -43,76 +53,9 @@ class RiveBuilder extends JsonWidgetBuilder {
   final String? rive;
   final String? url;
 
-  /// Builds the builder from a Map-like dynamic structure.  This expects the
-  /// JSON format to be of the following structure:
-  ///
-  /// ```json
-  /// {
-  ///   "alignment": <AlignmentGeometry>,
-  ///   "animations": <List<String>>,
-  ///   "antialiasing": <bool>,
-  ///   "artboard": <String>,
-  ///   "asset": <String>,
-  ///   "fit": <BoxFit>,
-  ///   "package": <String>,
-  ///   "placeholder": <JsonWidgetData>,
-  ///   "stateMachines": <List<String>>,
-  ///   "rive": <String>,
-  ///   "url": <String>
-  /// }
-  /// ```
-  ///
-  /// See also:
-  ///  * [ThemeDecoder.decodeAlignment]
-  ///  * [ThemeDecoder.decodeBoxFit]
-  static RiveBuilder fromDynamic(
-    dynamic map, {
-    JsonWidgetRegistry? registry,
-  }) {
-    if (map == null) {
-      throw Exception('[RiveBuilder]: map is null');
-    }
-
-    return RiveBuilder(
-      alignment: ThemeDecoder.decodeAlignment(
-        map['alignment'],
-        validate: false,
-      ),
-      animations: map['animations'] == null
-          ? null
-          : List<String>.from(map['animations']),
-      artboard: map['artboard'],
-      antialiasing: map['antialiasing'] == null
-          ? null
-          : JsonClass.parseBool(map['antialiasing']),
-      asset: map['asset'],
-      fit: ThemeDecoder.decodeBoxFit(
-        map['fit'],
-        validate: false,
-      ),
-      package: map['package'],
-      placeholder: JsonWidgetData.fromDynamic(map['placeholder']),
-      rive: map['rive'],
-      stateMachines: map['stateMachines'] == null
-          ? null
-          : List<String>.from(map['stateMachines']),
-      url: map['url'],
-    );
-  }
-
   /// Builds the widget from the give [data].
   @override
-  Widget buildCustom({
-    ChildWidgetBuilder? childBuilder,
-    required BuildContext context,
-    required JsonWidgetData data,
-    Key? key,
-  }) {
-    assert(
-      data.children?.isNotEmpty != true,
-      '[RiveBuilder] does not support children.',
-    );
-
+  Widget build(BuildContext context) {
     return asset != null
         ? RiveAnimation.asset(
             package == null ? asset! : 'packages/$package/$asset',
@@ -151,7 +94,7 @@ class RiveBuilder extends JsonWidgetBuilder {
 }
 
 class _RiveMemoryWidget extends StatefulWidget {
-  _RiveMemoryWidget({
+  const _RiveMemoryWidget({
     required this.alignment,
     required this.artboard,
     required this.animations,

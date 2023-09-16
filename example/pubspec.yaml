@@ -11,8 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  json_dynamic_widget: '^7.0.0+2'
   json_dynamic_widget_plugin_rive:
     path: ../
+  logging: '^1.2.0'
 
 dev_dependencies:
   flutter_test:

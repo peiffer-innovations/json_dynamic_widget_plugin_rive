@@ -41,9 +41,9 @@ void main() async {
 
 class DynamicWidgetPage extends StatelessWidget {
   const DynamicWidgetPage({
-    Key? key,
+    super.key,
     required this.data,
-  }) : super(key: key);
+  });
 
   final JsonWidgetData data;
 

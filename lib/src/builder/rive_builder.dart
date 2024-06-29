@@ -23,13 +23,14 @@ abstract class _RiveBuilder extends JsonWidgetBuilder {
 
 class _Rive extends StatelessWidget {
   const _Rive({
-    required this.alignment,
+    this.alignment = Alignment.center,
     required this.animations,
     required this.antialiasing,
     required this.artboard,
     required this.asset,
     @JsonBuildArg() this.childBuilder,
-    required this.fit,
+    this.fit = BoxFit.contain,
+    super.key,
     required this.package,
     required this.placeholder,
     required this.rive,
@@ -40,13 +41,13 @@ class _Rive extends StatelessWidget {
             (rive == null && url == null)),
         assert(asset != null || rive != null || url != null);
 
-  final Alignment? alignment;
+  final Alignment alignment;
   final List<String>? animations;
   final bool? antialiasing;
   final String? artboard;
   final String? asset;
   final ChildWidgetBuilder? childBuilder;
-  final BoxFit? fit;
+  final BoxFit fit;
   final String? package;
   final JsonWidgetData? placeholder;
   final List<String>? stateMachines;
@@ -59,7 +60,7 @@ class _Rive extends StatelessWidget {
     return asset != null
         ? RiveAnimation.asset(
             package == null ? asset! : 'packages/$package/$asset',
-            alignment: alignment ?? Alignment.center,
+            alignment: alignment,
             antialiasing: antialiasing ?? true,
             artboard: artboard,
             fit: fit,
@@ -71,7 +72,7 @@ class _Rive extends StatelessWidget {
         : rive != null
             ? _RiveMemoryWidget(
                 artboard: artboard,
-                alignment: alignment ?? Alignment.center,
+                alignment: alignment,
                 animations: animations,
                 antialiasing: antialiasing ?? true,
                 fit: fit,
@@ -79,7 +80,7 @@ class _Rive extends StatelessWidget {
               )
             : RiveAnimation.network(
                 url!,
-                alignment: alignment ?? Alignment.center,
+                alignment: alignment,
                 animations: animations ?? const <String>[],
                 antialiasing: antialiasing ?? true,
                 artboard: artboard,
@@ -95,20 +96,19 @@ class _Rive extends StatelessWidget {
 
 class _RiveMemoryWidget extends StatefulWidget {
   const _RiveMemoryWidget({
-    required this.alignment,
+    this.alignment = Alignment.center,
     required this.artboard,
     required this.animations,
     required this.antialiasing,
-    required this.fit,
-    Key? key,
+    this.fit = BoxFit.contain,
     required this.rive,
-  }) : super(key: key);
+  });
 
-  final Alignment? alignment;
+  final Alignment alignment;
   final String? artboard;
   final List<String>? animations;
   final bool? antialiasing;
-  final BoxFit? fit;
+  final BoxFit fit;
   final String rive;
 
   @override

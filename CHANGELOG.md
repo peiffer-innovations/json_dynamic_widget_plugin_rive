@@ -1,3 +1,8 @@
+## [4.0.0+9] - September 17, 2024
+
+* Automated dependency updates
+
+
 ## [4.0.0+8] - September 10, 2024
 
 * Automated dependency updates

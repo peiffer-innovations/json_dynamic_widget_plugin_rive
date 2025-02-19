@@ -19,7 +19,7 @@ jobs:
           channel: stable
 
       - name: Validate
-        uses: peiffer-innovations/actions-flutter-validate@v1
+        uses: peiffer-innovations/actions-flutter-validate@v2
         with:
           generate_code: true
 

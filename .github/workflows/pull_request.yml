@@ -12,6 +12,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Dart Format Bug
+        run: |
+          cat lib/src/builder/rive_builder.dart
+          dart format lib test
+          cat lib/src/builder/rive_builder.dart
+
       - name: Validate
         uses: peiffer-innovations/actions-flutter-validate@v2
         with:

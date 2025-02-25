@@ -1,3 +1,8 @@
+## [4.0.1+1] - February 25, 2025
+
+* Automated dependency updates
+
+
 ## [4.0.1] - February 18th, 2025
 
 * Flutter 3.29

@@ -3,9 +3,13 @@ import 'dart:convert';
 import 'package:json_dynamic_widget/json_dynamic_widget.dart';
 import 'package:json_dynamic_widget_plugin_rive/json_dynamic_widget_plugin_rive.dart';
 import 'package:logging/logging.dart';
+import 'package:rive/rive.dart' as rive;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Required for Rive 0.14.0+ - initialize the native runtime
+  await rive.RiveNative.init();
 
   Logger.root.onRecord.listen((record) {
     debugPrint('${record.level.name}: ${record.time}: ${record.message}');
